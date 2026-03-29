@@ -46,9 +46,7 @@ publishing {
             artifactId 'android-media-cache-library'
             version '1.0.0'
 
-            afterEvaluate {
-                from components.release
-            }
+            from components.release
         }
     }
 }
