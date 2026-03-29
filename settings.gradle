@@ -1,7 +1,13 @@
+rootProject.name = "android-media-cache-library"
+
+// 🔥 VERY IMPORTANT
+include ':library'
+
 dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        google() // ye bhi add karo
+        maven { url 'https://jitpack.io' }
+    }
+}
