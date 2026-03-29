@@ -4,6 +4,7 @@ Instagram jaisa social media app ke liye optimized media caching library. Image,
 
 ## Features
 
+
 - **Two-tier Caching**: Memory (LRU) + Disk cache
 - **Main Thread Callbacks**: ALL callbacks delivered on UI thread via Handler
 - **Duplicate URL Handling**: Same URL requests queued - no duplicate downloads
