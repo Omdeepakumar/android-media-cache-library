@@ -16,18 +16,25 @@ Instagram jaisa social media app ke liye optimized media caching library. Image,
 
 ## Setup
 
-### 1. Copy Files to Your Project
+### Installation
 
-Copy `com/media/cache/` package to your Android project:
+Add JitPack to your project-level `build.gradle` file:
 
+```gradle
+allprojects {
+    repositories {
+        ... 
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
-your-app/src/main/java/com/media/cache/
-├── MediaType.java
-├── CacheCallback.java
-├── CacheEntry.java
-├── MemoryCache.java
-├── DiskCache.java
-└── MediaCacheHelper.java
+
+Add the dependency to your app-level `build.gradle` file:
+
+```gradle
+dependencies {
+    implementation 'com.github.Omdeepakumar:android-media-cache-library:1.0.0'
+}
 ```
 
 ### 2. Add Internet Permission
